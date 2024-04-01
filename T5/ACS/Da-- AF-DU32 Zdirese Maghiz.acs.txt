@@ -1,0 +1,84 @@
+--- 
+ACS1.0: Mon Apr  1 18:04:12 2024
+Mission: Fast Trader
+QSP: AF-DU32 
+Cx: 
+Vx: B1
+Name: Zdirese Maghiz
+Tons: 400
+TL: 13 
+Undertonnage: 13
+MCr: 104.9
+Owner: Yelim
+Allegiance: Da
+
+Crew comfort: 0
+Passengers: 8
+Passenger demand: 1
+Low berths: 16
+Cargo: 120
+Fuel: 82
+Fuel treatment: SP,IP,BP
+Computer: Model/3  
+
+Comments: |-
+   Using a 400-ton, TL13 hull, the Fast Trader mounts jump drive-D, maneuver drive-F, and power plant-F, giving a performance of jump-2 and 3G acceleration. Fuel tankage supports a 2 parsec jump, at 36t per parsec, and one month of operations. Attached to the bridge is a Computer Model/3. There are 8 crew staterooms, 8 luxury staterooms and 16 low berths. Installed weaponry include a T2 Missile, a T2 Sandcaster, and two T2 Beam Lasers. Cargo capacity is 120 tons. The ship has an unstreamlined hull, with scoops, intakes, and bins for frontier refueling. 
+   
+   Carried craft include one grappled Gig. The ship has 8 crew, and can carry 8 high passengers and 16 low.  The undertonnage hull gains +1 acceleration in atmosphere 2+.
+    
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   400   . Unstreamlined Hull                 14.0  ,HH.0  U .....
+ -     4   . Landing legs with pads              4.0  ,HL.1  K .....
+ -     0   . AV=6. 1 EMP Organic                 0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    72   . Jump Fuel (2  parsecs)              0.0  ,DF.0  . .....
+ -    10   . Plant Fuel (one month)              0.0  ,DF.0  . .....
+ -     2   . Fuel Scoops with Purifier           1.1  ,DF.2 SP .....
+ -     2   . Fuel Intakes with Purifier          1.1  ,DF.2 IP .....
+ -     2   . Fuel Bins with Purifier             1.1  ,DF.2 BP .....
+ -    12   . Mod Jump Drive D (R2)              12.5  ,DJ21  2 1005A0
+ -     9   . Mod PowerPlant F (R3)               9.5  ,DP31  2 542B0
+ -     5   . Mod Maneuver Drive F (R3)          11.0  ,DM31  2 515A0
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     3   . Computer Model/3                   10.5  ,OC31  . .....
+ -     1   . Life Support Standard               1.0  ,OLS0  . .....
+ -     2   . Clinic                              1.0  ,OM.1  . .....
+ -     4   . Security Barracks                   0.2  ,OO.0  . .....
+ -     2  2x Life Support Luxury                 2.0  ,OLU0  . .....
+ -    18   . Spacious Bridge                     1.0  ,OB.0  2 .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . AR Surf Basic C-R-T                 6.0  ,SS.1  . .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . AR T2 Missile                       0.7  ,WW.1 -1 .....
+ -     1   . Vd T2 Sandcaster                    0.6  ,WW.1 -1 .....
+ -     2  2x Vd T2 Beam Laser                    2.0  ,WW.1 -1 .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    36  2x Crew Cluster                        1.8  ,CO.0  4 .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    48  8x Luxury Stateroom                    3.2  ,PS.0  1 .....
+ -   120   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+ -     8 16x Low Berth                           1.6  ,PL.0  . .....
+#
+#   TONS   # VEHICLES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Grapple                             1.0  ,VO.0  . .....
+ -    20   . Gig                                18.0  ,VO.0 LM .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+
