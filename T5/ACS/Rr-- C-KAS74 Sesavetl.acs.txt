@@ -1,5 +1,5 @@
 --- 
-ACS1.0: Mon Apr  1 18:04:25 2024
+ACS1.0: Wed Apr  3 18:18:55 2024
 Mission: Cruiser
 QSP: C-KAS74 
 Cx: 
@@ -10,7 +10,7 @@ TL: 16
 Undertonnage: 308.5
 MCr: 5516.5
 Owner: Republic of Regina
-Allegiance: RoR
+Allegiance: Rr
 
 Crew comfort: 0
 Passengers: 0

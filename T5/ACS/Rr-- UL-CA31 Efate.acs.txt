@@ -1,5 +1,5 @@
 --- 
-ACS1.0: Mon Apr  1 18:04:26 2024
+ACS1.0: Wed Apr  3 18:18:58 2024
 Mission: Long Packet
 QSP: UL-CA31 
 Cx: 
@@ -10,7 +10,7 @@ TL: 17
 Undertonnage: 10.5
 MCr: 141.5
 Owner: Republic of Regina
-Allegiance: RoR
+Allegiance: Rr
 
 Crew comfort: 0
 Passengers: 12

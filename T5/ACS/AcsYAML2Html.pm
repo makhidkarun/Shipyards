@@ -34,6 +34,7 @@ sub convert
    my $shipname = $hdr->{ shipname };
    my $totalMCr = $hdr->{ totalMCr };
    my $comments = $hdr->{ comments };
+   my $tl       = $hdr->{ tl };
    $comments =~ s|\n$||;
    $comments =~ s|\n|<br />\n|g;
 
@@ -80,7 +81,7 @@ sub convert
    my @paxData         = grepByType( 'Passenger', @comp );
    my @vehicleData     = grepByType( 'Vehicle',   @comp );
 
-   my $opsQuality = '';
+   my $opsQuality = "TL $tl. ";
    $opsQuality .= "Crew Comfort $crewComfort. " if $crewComfort != 0;
    $opsQuality .= "Demand $demand. " if $demand != 0;
    $opsQuality .= "$vol. " if $vol;

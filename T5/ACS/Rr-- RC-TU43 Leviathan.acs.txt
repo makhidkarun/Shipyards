@@ -1,5 +1,5 @@
 --- 
-ACS1.0: Mon Apr  1 18:04:26 2024
+ACS1.0: Wed Apr  3 18:18:57 2024
 Mission: Merchant Cruiser
 QSP: RC-TU43 
 Cx: 
@@ -10,7 +10,7 @@ TL: 16
 Undertonnage: 225
 MCr: 752.4
 Owner: Republic of Regina
-Allegiance: RoR
+Allegiance: Rr
 
 Crew comfort: -1
 Passengers: 8
