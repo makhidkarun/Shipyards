@@ -17,6 +17,9 @@ my $file   = shift || die "SYNOPSIS: $0 acs file\n";
 $file .= '.'   unless $file =~ /\.$/;
 $file .= 'acs.txt' unless $file =~ /acs.txt$/;
 
+my $outfile = $file;
+   $outfile =~ s/.acs.txt/.infobox.txt/;
+
 my $y      = YAML::LoadFile( $file );
 my $name   = $y->{ 'Name' };
 my $qsp    = $y->{ 'QSP' };
@@ -38,7 +41,8 @@ my $hp     = $y->{ 'Hardpoints' } || int($size/100);
 my $cx     = $y->{ 'Cx' };
 my $vx     = $y->{ 'Vx' } || 'None';
 
-print<<EODUMP;
+open my $OUTFILE, '>', $outfile;
+print $OUTFILE <<EODUMP;
  |name         = $name class $type
  |image        = 
  |caption      = 
@@ -102,3 +106,7 @@ print<<EODUMP;
  |ref         = {{Ludography ref|name= Starships|version= Classic Traveller |page= 19}}
  |footnote    = [[Starship]]s are designed with the [[Classic Traveller]] format, using [[Traveller 5]].
 EODUMP
+
+close $OUTFILE;
+
+print STDERR "$file -> $outfile\n";
